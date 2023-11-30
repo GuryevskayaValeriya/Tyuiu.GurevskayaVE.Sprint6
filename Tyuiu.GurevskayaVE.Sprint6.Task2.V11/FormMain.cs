@@ -72,6 +72,6 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             buttonDone_GVE.BackColor = Color.Blue;
         }
 
-       
+        
     }
 }

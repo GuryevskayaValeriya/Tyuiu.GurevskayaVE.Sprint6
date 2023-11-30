@@ -42,16 +42,16 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.buttonInfo_GVE = new System.Windows.Forms.Button();
             this.buttonDone_GVE = new System.Windows.Forms.Button();
             this.groupBoxOutPut_GVE = new System.Windows.Forms.GroupBox();
-            this.DataGridViewRes_GVE = new System.Windows.Forms.DataGridView();
-            this.labelRes_GVE = new System.Windows.Forms.Label();
             this.chartRes_GVE = new System.Windows.Forms.DataVisualization.Charting.Chart();
+            this.DataGridViewRes_GVE = new System.Windows.Forms.DataGridView();
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.f = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.labelRes_GVE = new System.Windows.Forms.Label();
             this.groupBoxUsl_GVE.SuspendLayout();
             this.groupBoxInPut_GVE.SuspendLayout();
             this.groupBoxOutPut_GVE.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartRes_GVE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxUsl_GVE
@@ -158,30 +158,6 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.groupBoxOutPut_GVE.TabStop = false;
             this.groupBoxOutPut_GVE.Text = "Вывод данных";
             // 
-            // DataGridViewRes_GVE
-            // 
-            this.DataGridViewRes_GVE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.DataGridViewRes_GVE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.X,
-            this.f});
-            this.DataGridViewRes_GVE.Location = new System.Drawing.Point(31, 57);
-            this.DataGridViewRes_GVE.Name = "DataGridViewRes_GVE";
-            this.DataGridViewRes_GVE.RowHeadersVisible = false;
-            this.DataGridViewRes_GVE.RowHeadersWidth = 51;
-            this.DataGridViewRes_GVE.RowTemplate.Height = 24;
-            this.DataGridViewRes_GVE.Size = new System.Drawing.Size(144, 303);
-            this.DataGridViewRes_GVE.TabIndex = 1;
-            
-            // 
-            // labelRes_GVE
-            // 
-            this.labelRes_GVE.AutoSize = true;
-            this.labelRes_GVE.Location = new System.Drawing.Point(19, 22);
-            this.labelRes_GVE.Name = "labelRes_GVE";
-            this.labelRes_GVE.Size = new System.Drawing.Size(80, 17);
-            this.labelRes_GVE.TabIndex = 0;
-            this.labelRes_GVE.Text = "Результат:";
-            // 
             // chartRes_GVE
             // 
             chartArea1.Name = "ChartArea1";
@@ -199,7 +175,20 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.chartRes_GVE.Size = new System.Drawing.Size(524, 303);
             this.chartRes_GVE.TabIndex = 2;
             this.chartRes_GVE.Text = "chart1";
-            
+            // 
+            // DataGridViewRes_GVE
+            // 
+            this.DataGridViewRes_GVE.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.DataGridViewRes_GVE.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.X,
+            this.f});
+            this.DataGridViewRes_GVE.Location = new System.Drawing.Point(31, 57);
+            this.DataGridViewRes_GVE.Name = "DataGridViewRes_GVE";
+            this.DataGridViewRes_GVE.RowHeadersVisible = false;
+            this.DataGridViewRes_GVE.RowHeadersWidth = 51;
+            this.DataGridViewRes_GVE.RowTemplate.Height = 24;
+            this.DataGridViewRes_GVE.Size = new System.Drawing.Size(144, 303);
+            this.DataGridViewRes_GVE.TabIndex = 1;
             // 
             // X
             // 
@@ -214,6 +203,15 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.f.MinimumWidth = 6;
             this.f.Name = "f";
             this.f.Width = 50;
+            // 
+            // labelRes_GVE
+            // 
+            this.labelRes_GVE.AutoSize = true;
+            this.labelRes_GVE.Location = new System.Drawing.Point(19, 22);
+            this.labelRes_GVE.Name = "labelRes_GVE";
+            this.labelRes_GVE.Size = new System.Drawing.Size(80, 17);
+            this.labelRes_GVE.TabIndex = 0;
+            this.labelRes_GVE.Text = "Результат:";
             // 
             // FormMain
             // 
@@ -236,8 +234,8 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.groupBoxInPut_GVE.PerformLayout();
             this.groupBoxOutPut_GVE.ResumeLayout(false);
             this.groupBoxOutPut_GVE.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartRes_GVE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).EndInit();
             this.ResumeLayout(false);
 
         }
