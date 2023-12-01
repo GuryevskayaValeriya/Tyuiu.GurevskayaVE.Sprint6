@@ -29,9 +29,9 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.groupBoxUsl_GVE = new System.Windows.Forms.GroupBox();
             this.labelUsl_GVE = new System.Windows.Forms.Label();
             this.groupBoxInPut_GVE = new System.Windows.Forms.GroupBox();
@@ -47,15 +47,18 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.X = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.f = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.labelRes_GVE = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxUsl_GVE.SuspendLayout();
             this.groupBoxInPut_GVE.SuspendLayout();
             this.groupBoxOutPut_GVE.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartRes_GVE)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBoxUsl_GVE
             // 
+            this.groupBoxUsl_GVE.Controls.Add(this.pictureBox1);
             this.groupBoxUsl_GVE.Controls.Add(this.labelUsl_GVE);
             this.groupBoxUsl_GVE.Location = new System.Drawing.Point(12, 12);
             this.groupBoxUsl_GVE.Name = "groupBoxUsl_GVE";
@@ -160,18 +163,18 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             // 
             // chartRes_GVE
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartRes_GVE.ChartAreas.Add(chartArea1);
-            legend1.Name = "Legend1";
-            this.chartRes_GVE.Legends.Add(legend1);
+            chartArea2.Name = "ChartArea1";
+            this.chartRes_GVE.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chartRes_GVE.Legends.Add(legend2);
             this.chartRes_GVE.Location = new System.Drawing.Point(181, 57);
             this.chartRes_GVE.Name = "chartRes_GVE";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.IsVisibleInLegend = false;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartRes_GVE.Series.Add(series1);
+            series2.ChartArea = "ChartArea1";
+            series2.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series2.IsVisibleInLegend = false;
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chartRes_GVE.Series.Add(series2);
             this.chartRes_GVE.Size = new System.Drawing.Size(524, 303);
             this.chartRes_GVE.TabIndex = 2;
             this.chartRes_GVE.Text = "chart1";
@@ -213,6 +216,15 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.labelRes_GVE.TabIndex = 0;
             this.labelRes_GVE.Text = "Результат:";
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Tyuiu.GurevskayaVE.Sprint6.Task2.V11.Properties.Resources.mVFvdzCOhMA;
+            this.pictureBox1.Location = new System.Drawing.Point(13, 84);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(269, 58);
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -236,6 +248,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
             this.groupBoxOutPut_GVE.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartRes_GVE)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.DataGridViewRes_GVE)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -257,6 +270,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task2.V11
         private System.Windows.Forms.DataVisualization.Charting.Chart chartRes_GVE;
         private System.Windows.Forms.DataGridViewTextBoxColumn X;
         private System.Windows.Forms.DataGridViewTextBoxColumn f;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 
