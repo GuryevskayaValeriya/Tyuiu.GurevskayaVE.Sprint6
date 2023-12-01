@@ -65,6 +65,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -84,6 +85,21 @@
       <Project>{814956ea-d47b-4b68-a595-09c1afdfa53e}</Project>
       <Name>Tyuiu.GurevskayaVE.Sprint6.Task1.V6.Lib</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\таск1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\таск11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\таск12.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1Hh9remqo4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\p1Hh9remqo41.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

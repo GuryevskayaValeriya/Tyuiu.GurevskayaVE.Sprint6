@@ -41,9 +41,11 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
             this.groupBoxRes_GVE = new System.Windows.Forms.GroupBox();
             this.labelRes_GVE = new System.Windows.Forms.Label();
             this.textBoxRes_GVE = new System.Windows.Forms.TextBox();
+            this.pictureBoxUsl_GVE = new System.Windows.Forms.PictureBox();
             this.groupBoxUsl_GVE.SuspendLayout();
             this.groupBoxInPut_GVE.SuspendLayout();
             this.groupBoxRes_GVE.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsl_GVE)).BeginInit();
             this.SuspendLayout();
             // 
             // buttonInfo_GVE
@@ -70,6 +72,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
             // 
             // groupBoxUsl_GVE
             // 
+            this.groupBoxUsl_GVE.Controls.Add(this.pictureBoxUsl_GVE);
             this.groupBoxUsl_GVE.Controls.Add(this.labelUsl_GVE);
             this.groupBoxUsl_GVE.Location = new System.Drawing.Point(26, 28);
             this.groupBoxUsl_GVE.Name = "groupBoxUsl_GVE";
@@ -166,6 +169,14 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
             this.textBoxRes_GVE.Size = new System.Drawing.Size(205, 359);
             this.textBoxRes_GVE.TabIndex = 0;
             // 
+            // pictureBoxUsl_GVE
+            // 
+            this.pictureBoxUsl_GVE.Location = new System.Drawing.Point(25, 82);
+            this.pictureBoxUsl_GVE.Name = "pictureBoxUsl_GVE";
+            this.pictureBoxUsl_GVE.Size = new System.Drawing.Size(258, 55);
+            this.pictureBoxUsl_GVE.TabIndex = 1;
+            this.pictureBoxUsl_GVE.TabStop = false;
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -187,6 +198,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
             this.groupBoxInPut_GVE.PerformLayout();
             this.groupBoxRes_GVE.ResumeLayout(false);
             this.groupBoxRes_GVE.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxUsl_GVE)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -205,6 +217,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
         private System.Windows.Forms.GroupBox groupBoxRes_GVE;
         private System.Windows.Forms.Label labelRes_GVE;
         private System.Windows.Forms.TextBox textBoxRes_GVE;
+        private System.Windows.Forms.PictureBox pictureBoxUsl_GVE;
     }
 }
 
