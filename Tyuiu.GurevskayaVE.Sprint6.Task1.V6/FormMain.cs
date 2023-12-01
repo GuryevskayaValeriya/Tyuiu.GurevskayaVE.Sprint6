@@ -57,7 +57,7 @@ namespace Tyuiu.GurevskayaVE.Sprint6.Task1.V6
 
         private void buttonInfo_GVE_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Таск 1 выполнила студент группы ПКТб-23-2 Гурьвская В.Е.", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("Таск 1 выполнила студент группы ПКТб-23-2 Гурьевская В.Е.", "Справка", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }
